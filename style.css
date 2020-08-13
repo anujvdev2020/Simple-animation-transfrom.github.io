@@ -1,0 +1,48 @@
+
+body{
+	background-color:white;
+}
+.main{
+	display: flex;
+}
+#one {
+    
+    height: 78px;
+    width: 100px;
+    background: silver;
+    border: 2px solid black;
+}
+
+#two {
+    margin-top: 50px;
+    height: 78px;
+    width: 100px;
+  
+    background: silver;
+    border: 2px solid black;
+    transition: background 0.5s,transform 0.2s 0.1s;
+}
+#two:hover{
+	background-color: salmon;
+	transform:  translateY(-6px);
+	box-shadow: 5px 5px  5px 5px #dddddd;
+
+
+}
+#three{
+    margin-left: 25px;
+    height: 78px;
+    width: 100px;
+    
+    background: silver;
+    border: 2px solid black;
+    transition: background 0.5s,transform 0.2s 0.1s;
+}
+#three:hover{
+	background-color: salmon;
+	transform:  translateY(-6px);
+	box-shadow: 5px 5px  5px 5px #dddddd;
+
+
+}
+.ma
